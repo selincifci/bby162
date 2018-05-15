@@ -7,8 +7,7 @@ album.configure(background="purple")
 
 resim1 = ImageTk.PhotoImage(Image.open("manzara1.jpg"))
 resim2 = ImageTk.PhotoImage(Image.open("manzara2.jpg"))
-resim3= ImageTk.PhotoImage(Image.open("manzara3.jpg"))
-resim4=ImageTk.PhotoImage(Image.open("manzara4.jpg"))
+
 etiket = Label(album, text="Doğa Manzaraları", bg="grey", font="arial 15 bold")
 etiket.pack()
 
